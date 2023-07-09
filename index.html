@@ -1,0 +1,1354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./src/images/logo_black.png"
+      type="image/x-icon"
+    />
+    <title>Revolution</title>
+    <!-- tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- SLICK -->
+    <link rel="stylesheet" href="./src/slick-1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./src/slick-1.8.1/slick/slick-theme.css" />
+
+    <!-- WOW -->
+    <link rel="stylesheet" href="./src/WOW-master/css/libs/animate.css" />
+
+    <!-- ANIMATE -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <link rel="stylesheet" href="./src/css/style.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header
+      class="py-[65px] fixed w-full top-0 left-0 z-10 transition-all duration-500 ease-in-out"
+    >
+      <div class="max-w-[1300px] mx-auto flex items-center justify-between">
+        <div class="flex items-center justify-between gap-[134px]">
+          <img class="w-[74px]" src="./src/images/logo_black.png" alt="logo" />
+          <div class="flex items-center justify-between gap-[30px]">
+            <div class="h-[12px] w-[16px] flex flex-col justify-between">
+              <span class="w-full block h-[1px] bg-custom_black"></span>
+              <span class="w-full block h-[1px] bg-custom_black"></span>
+              <span class="w-full block h-[1px] bg-custom_black"></span>
+            </div>
+            <p class="text-[14px]">Menu</p>
+          </div>
+        </div>
+
+        <div class="flex items-baseline justify-between gap-[20px]">
+          <div class="inline-flex w-[20px] h-[24px] gap-[2px] items-end">
+            <span
+              class="w-[2px] h-[7px] bg-custom_black animate-music-1"
+            ></span>
+            <span
+              class="w-[2px] h-[7px] bg-custom_black animate-music-2"
+            ></span>
+            <span
+              class="w-[2px] h-[7px] bg-custom_black animate-music-3"
+            ></span>
+            <span
+              class="w-[2px] h-[7px] bg-custom_black animate-music-4"
+            ></span>
+          </div>
+          <div class="flex items-center justify-between">
+            <p class="text-[16px]">En</p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-3 h-3 ml-[10px]"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+              />
+            </svg>
+          </div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-5 h-5 self-center"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+            />
+          </svg>
+        </div>
+      </div>
+    </header>
+
+    <!-- BANNER -->
+    <section
+      class="bg-banner bg-right-top bg-no-repeat bg-contain mb-[6vh] py-[10vh]"
+    >
+      <div
+        class="max-w-[1300px] mx-auto flex items-center justify-between pt-[74px]"
+      >
+        <div class="w-[30%]">
+          <h2>
+            <span
+              class="text-cutom_black text-[80px] font-[600] block leading-[1] animate__animated animate__fadeInUp animate__fast"
+              >Paulaner</span
+            >
+            <span
+              class="text-cutom_black text-[80px] font-[600] block leading-[1] animate__animated animate__fadeInUp"
+              >Bräuhäuser</span
+            >
+          </h2>
+          <p
+            class="mt-[48px] mb-[40px] text-[18px] font-light animate__animated animate__fadeInUp animate__fast"
+          >
+            An in-depth look at the process behind one of the most successful
+            application ever created on iOS AppStore from our developer team.
+          </p>
+          <a
+            href="#"
+            class="animate__animated animate__fadeInUp animate__fast text-custom_black text-[12px] flex items-center font-bold before:block before:w-[35px] before:h-[1px] before:mr-[15px] before:bg-gray-300"
+            >DISCOVER</a
+          >
+        </div>
+        <div class="w-[55%] h-auto relative translate-x-[50px]">
+          <img
+            src="./src/images/iphone-1.png"
+            class="w-[358px] h-[546px] animate__animated animate__fadeInTopLeft"
+            alt="iphone"
+          />
+          <img
+            src="./src/images/iphone-2.png"
+            class="w-[334px] h-[487px] absolute -translate-[50%] top-[25%] left-[50%] animate__animated animate__fadeInBottomRight"
+            alt="iphone"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- SELECTED WORK -->
+    <section class="pb-[125px] border-solid border-b-[1px] border-gray-100">
+      <div class="max-w-[1300px] mx-auto">
+        <div>
+          <img
+            src="./src/images/line.png"
+            class="w-[95px] wow animate__animated animate__fadeInLeft"
+            alt="wave"
+          />
+          <h4
+            class="my-[78px] uppercase text-[12px] text-custom_black leading-[1px] wow animate__animated animate__fadeInUp animated"
+          >
+            Selected works
+          </h4>
+          <p
+            class="max-w-[635px] mb-[85px] text-[34px] font-[600] text-custom_black leading-[1.3] -tracking-[0.03rem] wow animate__animated animate__fadeInUp animated"
+          >
+            Revolution is a global network of talent that’s changing the way
+            creatives and companies
+            <span class="text-custom_orange">connect</span>
+            and
+            <span class="text-custom_orange">collaborate</span>
+          </p>
+        </div>
+        <div class="grid grid-cols-3 gap-[40px] mb-[66px]">
+          <div
+            class="wow animate__animated animate__slideInUp animated relative hover:scale-105 transition-all duration-500 ease-in-out before:content-[''] before:transition-all before:duration-500 before:ease-in-out before:absolute before:top-0 before:left-0 before:w-[100%] before:h-[100%] before:opacity-0 before:bg-linear1 hover:before:opacity-90"
+          >
+            <img
+              class="w-full object-cover"
+              src="./src/images/p1-760x700.jpeg"
+              alt="photo"
+            />
+            <div class="absolute bottom-[45px] text-white left-[45px] w-full">
+              <p>Mobile Apps</p>
+              <h2 class="text-[34px] font-[600] leading-[1.3]">Spotify</h2>
+            </div>
+          </div>
+
+          <div
+            class="wow animate__animated animate__slideInUp animated delay-200ms relative hover:scale-105 transition-all duration-500 ease-in-out before:content-[''] before:transition-all before:duration-500 before:ease-in-out before:absolute before:top-0 before:left-0 before:w-[100%] before:h-[100%] before:opacity-0 before:bg-linear2 hover:before:opacity-90"
+          >
+            <img
+              class="w-full object-cover"
+              src="./src/images/p2-760x700.jpeg"
+              alt="photo"
+            />
+            <div class="absolute bottom-[45px] text-white left-[45px] w-full">
+              <p>Branding</p>
+              <h2 class="text-[34px] font-[600] leading-[1.3]">Tokyo Street</h2>
+            </div>
+          </div>
+
+          <div
+            class="wow animate__animated animate__slideInUp animated delay-400ms relative hover:scale-105 transition-all duration-500 ease-in-out before:content-[''] before:transition-all before:duration-500 before:ease-in-out before:absolute before:top-0 before:left-0 before:w-[100%] before:h-[100%] before:opacity-0 before:bg-linear3 hover:before:opacity-90"
+          >
+            <img
+              class="w-full object-cover"
+              src="./src/images/p3-760x700.jpeg"
+              alt="photo"
+            />
+            <div class="absolute bottom-[45px] text-white left-[45px] w-full">
+              <p>Animation</p>
+              <h2 class="text-[34px] font-[600] leading-[1.3]">Bronze Age</h2>
+            </div>
+          </div>
+
+          <div
+            class="wow animate__animated animate__slideInUp animated relative hover:scale-105 transition-all duration-500 ease-in-out before:content-[''] before:transition-all before:duration-500 before:ease-in-out before:absolute before:top-0 before:left-0 before:w-[100%] before:h-[100%] before:opacity-0 before:bg-linear4 hover:before:opacity-90"
+          >
+            <img
+              class="w-full object-cover"
+              src="./src/images/p4-760x700.jpeg"
+              alt="photo"
+            />
+            <div class="absolute bottom-[45px] text-white left-[45px] w-full">
+              <p>Website Design</p>
+              <h2 class="text-[34px] font-[600] leading-[1.3]">
+                Centre Pavilion
+              </h2>
+            </div>
+          </div>
+
+          <div
+            class="wow animate__animated animate__slideInUp animated delay-200ms relative hover:scale-105 transition-all duration-500 ease-in-out before:content-[''] before:transition-all before:duration-500 before:ease-in-out before:absolute before:top-0 before:left-0 before:w-[100%] before:h-[100%] before:opacity-0 before:bg-linear5 hover:before:opacity-90"
+          >
+            <img
+              class="w-full object-cover"
+              src="./src/images/p5-760x700.jpeg"
+              alt="photo"
+            />
+            <div class="absolute bottom-[45px] text-white left-[45px] w-full">
+              <p>lllustration</p>
+              <h2 class="text-[34px] font-[600] leading-[1.3]">St. Homard</h2>
+            </div>
+          </div>
+
+          <div
+            class="wow animate__animated animate__slideInUp animated delay-400ms relative hover:scale-105 transition-all duration-500 ease-in-out before:content-[''] before:transition-all before:duration-500 before:ease-in-out before:absolute before:top-0 before:left-0 before:w-[100%] before:h-[100%] before:opacity-0 before:bg-linear6 hover:before:opacity-90"
+          >
+            <img
+              class="w-full object-cover"
+              src="./src/images/btc-760x700.jpeg"
+              alt="photo"
+            />
+            <div class="absolute bottom-[45px] text-white left-[45px] w-full">
+              <p>Branding</p>
+              <h2 class="text-[34px] font-[600] leading-[1.3]">Vintage Cars</h2>
+            </div>
+          </div>
+        </div>
+        <p
+          class="text-center text-custom_black text-[16px] hover:text-custom_orange transition-all duration-500 cursor-pointer"
+        >
+          Load More
+        </p>
+      </div>
+    </section>
+
+    <!-- OUR SERVICES -->
+    <section class="pb-[125px] overflow-hidden">
+      <div class="max-w-[1300px] mx-auto">
+        <div>
+          <h4
+            class="my-[78px] uppercase text-[12px] text-custom_black leading-[1px] font-bold wow animate__animated animate__fadeInUp"
+          >
+            OUR SERVICES
+          </h4>
+          <p
+            class="max-w-[635px] mb-[85px] text-[34px] font-[600] text-custom_black leading-[1.3] -tracking-[0.03rem] wow animate__animated animate__fadeInUp"
+          >
+            We are bombarded with information, we strip back the unnecessary to
+            deliver simple
+            <span class="text-custom_orange">experiences</span>.
+          </p>
+        </div>
+      </div>
+      <div class="flex services-items">
+        <div
+          class="wow animate__animated animate__fadeInUp group mr-[3px] w-[100%] h-[50vh] relative cursor-pointer before:transition-all before:duration-500 before:ease-in-out before:content-[''] before:absolute before:top-0 before:left-0 before:w-[100%] before:h-[100%] before:opacity-0 before:bg-linear7 hover:before:opacity-90"
+        >
+          <img
+            class="w-[100%] h-[100%] object-cover"
+            src="./src/images/s1-1-768x780.jpeg"
+            alt="photo-experience"
+          />
+          <div
+            class="absolute text-white w-[100%] h-[100%] top-0 left-0 p-[40px] flex flex-col items-start justify-between"
+          >
+            <div class="">
+              <p class="text-[12px] font-[800]">04</p>
+              <h3 class="text-[28px] font-[800] leading-[1.3]">
+                Content Strategy
+              </h3>
+            </div>
+            <div
+              class="relative w-[40px] h-[40px] transition-all duration-500 ease-in-out rounded-full border-[1px] text-center leading-[40px] border-white group-hover:bg-white group-hover:text-black"
+            >
+              <i
+                class="absolute top-[50%] transition-all duration-200 ease-in-out -translate-y-[50%] opacity-0 fa fa-arrow-right -left-[20px] group-hover:opacity-100 group-hover:left-[10px] text-center"
+              ></i>
+              <i class="fa fa-angle-right group-hover:hidden"></i>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="wow animate__animated animate__fadeInUp delay-200ms group mr-[3px] w-[100%] h-[50vh] relative cursor-pointer before:transition-all before:duration-500 before:ease-in-out before:content-[''] before:absolute before:top-0 before:left-0 before:w-[100%] before:h-[100%] before:opacity-0 before:bg-linear8 hover:before:opacity-90"
+        >
+          <img
+            class="w-[100%] h-[100%] object-cover"
+            src="./src/images/s2_.jpeg"
+            alt="photo-experience"
+          />
+          <div
+            class="absolute text-white w-[100%] h-[100%] top-0 left-0 p-[40px] flex flex-col items-start justify-between"
+          >
+            <div class="">
+              <p class="text-[12px] font-[800]">05</p>
+              <h3 class="text-[28px] font-[800] leading-[1.3]">
+                Content Strategy
+              </h3>
+            </div>
+            <div
+              class="relative w-[40px] h-[40px] transition-all duration-500 ease-in-out rounded-full border-[1px] text-center leading-[40px] border-white group-hover:bg-white group-hover:text-black"
+            >
+              <i
+                class="absolute top-[50%] transition-all duration-200 ease-in-out -translate-y-[50%] opacity-0 fa fa-arrow-right -left-[20px] group-hover:opacity-100 group-hover:left-[10px] text-center"
+              ></i>
+              <i class="fa fa-angle-right group-hover:hidden"></i>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="wow animate__animated animate__fadeInUp delay-400ms group mr-[3px] w-[100%] h-[50vh] relative cursor-pointer before:transition-all before:duration-500 before:ease-in-out before:content-[''] before:absolute before:top-0 before:left-0 before:w-[100%] before:h-[100%] before:opacity-0 before:bg-linear9 hover:before:opacity-90"
+        >
+          <img
+            class="w-[100%] h-[100%] object-cover"
+            src="./src/images/s3-771x1024.jpeg"
+            alt="photo-experience"
+          />
+          <div
+            class="absolute text-white w-[100%] h-[100%] top-0 left-0 p-[40px] flex flex-col items-start justify-between"
+          >
+            <div class="">
+              <p class="text-[12px] font-[800]">06</p>
+              <h3 class="text-[28px] font-[800] leading-[1.3]">
+                Content Strategy
+              </h3>
+            </div>
+            <div
+              class="relative w-[40px] h-[40px] transition-all duration-500 ease-in-out rounded-full border-[1px] text-center leading-[40px] border-white group-hover:bg-white group-hover:text-black"
+            >
+              <i
+                class="absolute top-[50%] transition-all duration-200 ease-in-out -translate-y-[50%] opacity-0 fa fa-arrow-right -left-[20px] group-hover:opacity-100 group-hover:left-[10px] text-center"
+              ></i>
+              <i class="fa fa-angle-right group-hover:hidden"></i>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="wow animate__animated animate__fadeInUp delay-600ms group mr-[3px] w-[100%] h-[50vh] relative cursor-pointer before:transition-all before:duration-500 before:ease-in-out before:content-[''] before:absolute before:top-0 before:left-0 before:w-[100%] before:h-[100%] before:opacity-0 before:bg-linear10 hover:before:opacity-90"
+        >
+          <img
+            class="w-[100%] h-[100%] object-cover"
+            src="./src/images/s4-1.jpeg"
+            alt="photo-experience"
+          />
+          <div
+            class="absolute text-white w-[100%] h-[100%] top-0 left-0 p-[40px] flex flex-col items-start justify-between"
+          >
+            <div class="">
+              <p class="text-[12px] font-[800]">07</p>
+              <h3 class="text-[28px] font-[800] leading-[1.3]">
+                Content Strategy
+              </h3>
+            </div>
+            <div
+              class="relative w-[40px] h-[40px] transition-all duration-500 ease-in-out rounded-full border-[1px] text-center leading-[40px] border-white group-hover:bg-white group-hover:text-black"
+            >
+              <i
+                class="absolute top-[50%] transition-all duration-200 ease-in-out -translate-y-[50%] opacity-0 fa fa-arrow-right -left-[20px] group-hover:opacity-100 group-hover:left-[10px] text-center"
+              ></i>
+              <i class="fa fa-angle-right group-hover:hidden"></i>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="group mr-[3px] w-[100%] h-[50vh] relative cursor-pointer before:transition-all before:duration-500 before:ease-in-out before:content-[''] before:absolute before:top-0 before:left-0 before:w-[100%] before:h-[100%] before:opacity-0 before:bg-linear11 hover:before:opacity-90"
+        >
+          <img
+            class="w-[100%] h-[100%] object-cover"
+            src="./src/images/s5-877x1024.jpeg"
+            alt="photo-experience"
+          />
+          <div
+            class="absolute text-white w-[100%] h-[100%] top-0 left-0 p-[40px] flex flex-col items-start justify-between"
+          >
+            <div class="">
+              <p class="text-[12px] font-[800]">08</p>
+              <h3 class="text-[28px] font-[800] leading-[1.3]">
+                Content Strategy
+              </h3>
+            </div>
+            <div
+              class="relative w-[40px] h-[40px] transition-all duration-500 ease-in-out rounded-full border-[1px] text-center leading-[40px] border-white group-hover:bg-white group-hover:text-black"
+            >
+              <i
+                class="absolute top-[50%] transition-all duration-200 ease-in-out -translate-y-[50%] opacity-0 fa fa-arrow-right -left-[20px] group-hover:opacity-100 group-hover:left-[10px] text-center"
+              ></i>
+              <i class="fa fa-angle-right group-hover:hidden"></i>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="group mr-[3px] w-[100%] h-[50vh] relative cursor-pointer before:transition-all before:duration-500 before:ease-in-out before:content-[''] before:absolute before:top-0 before:left-0 before:w-[100%] before:h-[100%] before:opacity-0 before:bg-linear12 hover:before:opacity-90"
+        >
+          <img
+            class="w-[100%] h-[100%] object-cover"
+            src="./src/images/s6-877x1024.jpeg"
+            alt="photo-experience"
+          />
+          <div
+            class="absolute text-white w-[100%] h-[100%] top-0 left-0 p-[40px] flex flex-col items-start justify-between"
+          >
+            <div class="">
+              <p class="text-[12px] font-[800]">09</p>
+              <h3 class="text-[28px] font-[800] leading-[1.3]">
+                Content Strategy
+              </h3>
+            </div>
+            <div
+              class="relative w-[40px] h-[40px] transition-all duration-500 ease-in-out rounded-full border-[1px] text-center leading-[40px] border-white group-hover:bg-white group-hover:text-black"
+            >
+              <i
+                class="absolute top-[50%] transition-all duration-200 ease-in-out -translate-y-[50%] opacity-0 fa fa-arrow-right -left-[20px] group-hover:opacity-100 group-hover:left-[10px] text-center"
+              ></i>
+              <i class="fa fa-angle-right group-hover:hidden"></i>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="group mr-[3px] w-[100%] h-[50vh] relative cursor-pointer before:transition-all before:duration-500 before:ease-in-out before:content-[''] before:absolute before:top-0 before:left-0 before:w-[100%] before:h-[100%] before:opacity-0 before:bg-linear13 hover:before:opacity-90"
+        >
+          <img
+            class="w-[100%] h-[100%] object-cover"
+            src="./src/images/s7-877x1024.jpeg"
+            alt="photo-experience"
+          />
+          <div
+            class="absolute text-white w-[100%] h-[100%] top-0 left-0 p-[40px] flex flex-col items-start justify-between"
+          >
+            <div class="">
+              <p class="text-[12px] font-[800]">10</p>
+              <h3 class="text-[28px] font-[800] leading-[1.3]">
+                Content Strategy
+              </h3>
+            </div>
+            <div
+              class="relative w-[40px] h-[40px] transition-all duration-500 ease-in-out rounded-full border-[1px] text-center leading-[40px] border-white group-hover:bg-white group-hover:text-black"
+            >
+              <i
+                class="absolute top-[50%] transition-all duration-200 ease-in-out -translate-y-[50%] opacity-0 fa fa-arrow-right -left-[20px] group-hover:opacity-100 group-hover:left-[10px] text-center"
+              ></i>
+              <i class="fa fa-angle-right group-hover:hidden"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHO WE ARE -->
+    <section class="pb-[125px]">
+      <div class="max-w-[1300px] mx-auto">
+        <div class="max-w-[635px] mb-[120px]">
+          <h4
+            class="my-[78px] uppercase text-[12px] text-custom_black leading-[1px] font-bold wow animate__animated animate__fadeInUp"
+          >
+            WHO WE ARE
+          </h4>
+          <p
+            class="text-[34px] mb-[35px] font-[600] text-custom_black leading-[1.3] -tracking-[0.03rem] wow animate__animated animate__fadeInUp"
+          >
+            We work with organisations to craft
+            <span class="text-custom_orange">immersive</span> customer
+            experiences.
+          </p>
+          <p
+            class="mb-[35px] text-custom_gray leading-[1.6] text-[18px] wow animate__animated animate__fadeInUp"
+          >
+            Quisque. Maecenas. Eros mus. Hymenaeos eros. Nisi mauris et
+            adipiscing. Aliquam class bibendum non mattis fusce cum mus quisque
+            inceptos, viverra, gravida tellus condimentum aptent dapibus
+            interdum habitant gravida sollicitudin Elit sollicitudin id aenean
+            placerat conubia euismod natoque dui inceptos porttitor fusce
+            potenti vivamus phasellus hendrerit lacus praesent. Adipiscing.
+            Auctor lorem porttitor bibendum curae; sit ridiculus massa rhoncus
+            aliquam in hac luctus tincidunt aliquet vehicula eleifend mus vel
+            tempor.
+          </p>
+          <p
+            class="group text-custom_black text-[18px] hover:text-custom_orange transition-all duration-200 cursor-pointer flex items-center wow animate__animated animate__fadeInLeft"
+          >
+            Load More
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-[20px] transition-all duration-200 group-hover:text-custom_orange group-hover:w-[25px] h-5 ml-3"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+              />
+            </svg>
+          </p>
+        </div>
+      </div>
+      <div class="grid grid-cols-4 grid-rows-2 gap-[3px]">
+        <div
+          class="wow animate__animated animate__fadeInUp delay-200ms col-start-1 col-span-2 row-start-1 row-span-2 relative before:content-[''] before:absolute before:w-[100%] before:h-[100%] before:top-0 before:left-0 before:bg-black before:opacity-0 hover:before:opacity-30 cursor-pointer before:transition-all before:duration-300 before:ease-in-out"
+        >
+          <img
+            class="w-[100%]"
+            src="./src/images/g1-1140x1050.jpeg"
+            alt="us-photo"
+          />
+        </div>
+
+        <div
+          class="wow animate__animated animate__fadeInUp relative before:content-[''] before:absolute before:w-[100%] before:h-[100%] before:top-0 before:left-0 before:bg-black before:opacity-0 hover:before:opacity-30 cursor-pointer before:transition-all before:duration-300 before:ease-in-out"
+        >
+          <img
+            class="w-[100%]"
+            src="./src/images/g2-760x700.jpeg"
+            alt="us-photo"
+          />
+        </div>
+
+        <div
+          class="wow animate__animated animate__fadeInUp relative before:content-[''] before:absolute before:w-[100%] before:h-[100%] before:top-0 before:left-0 before:bg-black before:opacity-0 hover:before:opacity-30 cursor-pointer before:transition-all before:duration-300 before:ease-in-out"
+        >
+          <img
+            class="w-[100%]"
+            src="./src/images/g3-760x700.jpeg"
+            alt="us-photo"
+          />
+        </div>
+
+        <div
+          class="wow animate__animated animate__fadeInUp relative before:content-[''] before:absolute before:w-[100%] before:h-[100%] before:top-0 before:left-0 before:bg-black before:opacity-0 hover:before:opacity-30 cursor-pointer before:transition-all before:duration-300 before:ease-in-out"
+        >
+          <img
+            class="w-[100%]"
+            src="./src/images/g4-760x700.jpeg"
+            alt="us-photo"
+          />
+        </div>
+
+        <div
+          class="wow animate__animated animate__fadeInUp relative before:content-[''] before:absolute before:w-[100%] before:h-[100%] before:top-0 before:left-0 before:bg-black before:opacity-0 hover:before:opacity-30 cursor-pointer before:transition-all before:duration-300 before:ease-in-out"
+        >
+          <img
+            class="w-[100%]"
+            src="./src/images/g5-760x700.jpeg"
+            alt="us-photo"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- MEET THE TEAM -->
+    <section class="pb-[125px] mb-[65px]">
+      <div class="max-w-[1300px] mx-auto">
+        <div class="">
+          <h4
+            class="wow animate__animated animate__fadeInUp max-w-[635px] my-[78px] uppercase text-[12px] text-custom_black leading-[1px] font-bold"
+          >
+            MEET THE TEAM
+          </h4>
+        </div>
+        <div class="grid grid-cols-4 gap-[40px] mb-[80px]">
+          <div
+            class="wow animate__animated animate__fadeInLeft group cursor-pointer"
+          >
+            <div class="relative">
+              <img class="block" src="./src/images/t1.jpeg" alt="avatar" />
+              <div
+                class="opacity-0 group-hover:opacity-100 absolute w-[100%] h-[100%] top-0 left-0 bg-team_hover p-[30px] flex flex-col justify-between"
+              >
+                <p
+                  class="text-[14px] transition-all duration-[1.1s] ease-in-out skew-y-12 group-hover:skew-y-0"
+                >
+                  Tortor non facilisi vel rhoncus consequat cum accumsan.
+                  Varius, phasellus Laoreet euismod sociosqu curabitur congue
+                  hac semper urna consectetuer orci tincidunt duis velit
+                  gravida, enim tempor viverra tortor euismod.
+                </p>
+                <div>
+                  <i
+                    class="w-[30px] h-[30px] rounded-full leading-[30px] bg-facebook text-white text-center text-[11px] fab fa-facebook-f"
+                  ></i>
+                  <i
+                    class="w-[30px] h-[30px] rounded-full leading-[30px] bg-twitter text-white text-center text-[11px] fab fa-twitter"
+                  ></i>
+                  <i
+                    class="w-[30px] h-[30px] rounded-full leading-[30px] bg-in text-white text-center text-[11px] fab fa-linkedin-in"
+                  ></i>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3 class="mt-[30px] text-[20px] color-custom_black">
+                Tylor Katholling
+              </h3>
+              <p class="text-[14px] color-custom_black opacity-40">Founder</p>
+            </div>
+          </div>
+
+          <div
+            class="wow animate__animated animate__fadeInLeft delay-500ms group cursor-pointer"
+          >
+            <div class="relative">
+              <img class="block" src="./src/images/t2.jpeg" alt="avatar" />
+              <div
+                class="opacity-0 group-hover:opacity-100 absolute w-[100%] h-[100%] top-0 left-0 bg-team_hover p-[30px] flex flex-col justify-between"
+              >
+                <p
+                  class="text-[14px] transition-all duration-[1.1s] ease-in-out skew-y-12 group-hover:skew-y-0"
+                >
+                  Tortor non facilisi vel rhoncus consequat cum accumsan.
+                  Varius, phasellus Laoreet euismod sociosqu curabitur congue
+                  hac semper urna consectetuer orci tincidunt duis velit
+                  gravida, enim tempor viverra tortor euismod.
+                </p>
+                <div>
+                  <i
+                    class="w-[30px] h-[30px] rounded-full leading-[30px] bg-facebook text-white text-center text-[11px] fab fa-facebook-f"
+                  ></i>
+                  <i
+                    class="w-[30px] h-[30px] rounded-full leading-[30px] bg-twitter text-white text-center text-[11px] fab fa-twitter"
+                  ></i>
+                  <i
+                    class="w-[30px] h-[30px] rounded-full leading-[30px] bg-in text-white text-center text-[11px] fab fa-linkedin-in"
+                  ></i>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3 class="mt-[30px] text-[20px] color-custom_black">
+                Tylor Katholling
+              </h3>
+              <p class="text-[14px] color-custom_black opacity-40">Founder</p>
+            </div>
+          </div>
+
+          <div
+            class="wow animate__animated animate__fadeInLeft delay-1000ms group cursor-pointer"
+          >
+            <div class="relative">
+              <img class="block" src="./src/images/t3.jpeg" alt="avatar" />
+              <div
+                class="opacity-0 group-hover:opacity-100 absolute w-[100%] h-[100%] top-0 left-0 bg-team_hover p-[30px] flex flex-col justify-between"
+              >
+                <p
+                  class="text-[14px] transition-all duration-[1.1s] ease-in-out skew-y-12 group-hover:skew-y-0"
+                >
+                  Tortor non facilisi vel rhoncus consequat cum accumsan.
+                  Varius, phasellus Laoreet euismod sociosqu curabitur congue
+                  hac semper urna consectetuer orci tincidunt duis velit
+                  gravida, enim tempor viverra tortor euismod.
+                </p>
+                <div>
+                  <i
+                    class="w-[30px] h-[30px] rounded-full leading-[30px] bg-facebook text-white text-center text-[11px] fab fa-facebook-f"
+                  ></i>
+                  <i
+                    class="w-[30px] h-[30px] rounded-full leading-[30px] bg-twitter text-white text-center text-[11px] fab fa-twitter"
+                  ></i>
+                  <i
+                    class="w-[30px] h-[30px] rounded-full leading-[30px] bg-in text-white text-center text-[11px] fab fa-linkedin-in"
+                  ></i>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3 class="mt-[30px] text-[20px] color-custom_black">
+                Tylor Katholling
+              </h3>
+              <p class="text-[14px] color-custom_black opacity-40">Founder</p>
+            </div>
+          </div>
+
+          <div
+            class="wow animate__animated animate__fadeInLeft delay-1500ms group cursor-pointer"
+          >
+            <div class="relative">
+              <img class="block" src="./src/images/t4.jpeg" alt="avatar" />
+              <div
+                class="opacity-0 group-hover:opacity-100 absolute w-[100%] h-[100%] top-0 left-0 bg-team_hover p-[30px] flex flex-col justify-between"
+              >
+                <p
+                  class="text-[14px] transition-all duration-[1.1s] ease-in-out skew-y-12 group-hover:skew-y-0"
+                >
+                  Tortor non facilisi vel rhoncus consequat cum accumsan.
+                  Varius, phasellus Laoreet euismod sociosqu curabitur congue
+                  hac semper urna consectetuer orci tincidunt duis velit
+                  gravida, enim tempor viverra tortor euismod.
+                </p>
+                <div>
+                  <i
+                    class="w-[30px] h-[30px] rounded-full leading-[30px] bg-facebook text-white text-center text-[11px] fab fa-facebook-f"
+                  ></i>
+                  <i
+                    class="w-[30px] h-[30px] rounded-full leading-[30px] bg-twitter text-white text-center text-[11px] fab fa-twitter"
+                  ></i>
+                  <i
+                    class="w-[30px] h-[30px] rounded-full leading-[30px] bg-in text-white text-center text-[11px] fab fa-linkedin-in"
+                  ></i>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3 class="mt-[30px] text-[20px] color-custom_black">
+                Tylor Katholling
+              </h3>
+              <p class="text-[14px] color-custom_black opacity-40">Founder</p>
+            </div>
+          </div>
+        </div>
+        <div class="wow animate__animated animate__fadeInLeft text-center">
+          <p
+            class="text-left w-[200px] inline-block group text-custom_black text-[18px] hover:text-custom_orange transition-all duration-200 cursor-pointer"
+          >
+            View All Members
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-[20px] inline-block transition-all duration-200 group-hover:text-custom_orange group-hover:w-[25px] h-5 ml-3"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+              />
+            </svg>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SELECTED CLIENTS
+ -->
+    <section class="pb-[125px]">
+      <div class="max-w-[1300px] mx-auto">
+        <div class="">
+          <h4
+            class="wow animate__animated animate__fadeInUp max-w-[635px] my-[78px] uppercase text-[12px] text-custom_black leading-[1px] font-bold"
+          >
+            SELECTED CLIENTS
+          </h4>
+        </div>
+        <div class="flex items-center justify-evently flex-wrap">
+          <a
+            href="#"
+            class="w-[25%] text-center wow animate__animated animate__fadeInLeft"
+          >
+            <img
+              class="w-[100%]"
+              src="./src/images/l1-1-760x405.png"
+              alt="brand"
+            />
+          </a>
+          <a
+            href="#"
+            class="w-[25%] text-center wow animate__animated animate__fadeInLeft delay-200ms"
+          >
+            <img
+              class="w-[100%]"
+              src="./src/images/l2-1-760x405.png"
+              alt="brand"
+            />
+          </a>
+          <a
+            href="#"
+            class="w-[25%] text-center wow animate__animated animate__fadeInLeft delay-400ms"
+          >
+            <img
+              class="w-[100%]"
+              src="./src/images/l3_-1-760x405.png"
+              alt="brand"
+            />
+          </a>
+          <a
+            href="#"
+            class="w-[25%] text-center wow animate__animated animate__fadeInLeft delay-600ms"
+          >
+            <img
+              class="w-[100%]"
+              src="./src/images/l4_-1-760x405.png"
+              alt="brand"
+            />
+          </a>
+          <a
+            href="#"
+            class="w-[25%] text-center wow animate__animated animate__fadeInLeft"
+          >
+            <img
+              class="w-[100%]"
+              src="./src/images/l5-1-760x405.png"
+              alt="brand"
+            />
+          </a>
+          <a
+            href="#"
+            class="w-[25%] text-center wow animate__animated animate__fadeInLeft delay-200ms"
+          >
+            <img
+              class="w-[100%]"
+              src="./src/images/l6-1-760x405.png"
+              alt="brand"
+            />
+          </a>
+          <a
+            href="#"
+            class="w-[25%] text-center wow animate__animated animate__fadeInLeft delay-400ms"
+          >
+            <img
+              class="w-[100%]"
+              src="./src/images/l7-1-760x405.png"
+              alt="brand"
+            />
+          </a>
+          <a
+            href="#"
+            class="w-[25%] text-center wow animate__animated animate__fadeInLeft delay-600ms"
+          >
+            <img
+              class="w-[100%]"
+              src="./src/images/l8-1-760x405.png"
+              alt="brand"
+            />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- THOUGHTS & EXPERIMENTS-->
+    <section class="py-[75px] bg-experiments">
+      <div class="max-w-[1300px] mx-auto">
+        <div>
+          <div class="flex justify-center mb-[50px]">
+            <img
+              src="./src/images/est.png"
+              class="mb-[50px] w-[115px]"
+              alt="est"
+            />
+          </div>
+          <p
+            class="text-center mb-[85px] text-[34px] font-[600] text-custom_black leading-[1.3] -tracking-[0.03rem]"
+          >
+            Thoughts & Experiments
+          </p>
+        </div>
+
+        <div class="grid grid-cols-4 gap-[40px] mb-[80px]">
+          <div
+            class="wow animate__animated animate__fadeInRight group cursor-pointer"
+          >
+            <div class="relative rounded-[4px] overflow-hidden">
+              <img
+                class="block group-hover:scale-105 transition-all duration-500 ease-in-out"
+                src="./src/images/r14-760x630.jpeg"
+                alt="avatar"
+              />
+              <div
+                class="absolute transition-all duration-500 ease-in-out w-[100%] h-[100%] top-0 left-0 bg-black_opacity opacity-0 text-white flex items-center justify-center group-hover:opacity-100"
+              >
+                <i
+                  class="fa fa-arrow-right text-[40px] -translate-x-[20px] opacity-0 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-1000 ease-in-out"
+                ></i>
+              </div>
+            </div>
+            <div>
+              <p class="text-[10px] text-custom_black mt-[30px] mb-[15px]">
+                CREATIVITY
+              </p>
+              <h3
+                class="text-[18px] mb-[15px] -heading-[0.03rem] leading-[1.3] font-[700] transition-all duration-400 ease-in-out hover:text-custom_orange hover:underline"
+              >
+                Sexbots and cybersex: Kate Davis explores “relationship
+                replacements”
+              </h3>
+              <p class="text-[12px]">January 15, 2018</p>
+            </div>
+          </div>
+
+          <div
+            class="wow animate__animated animate__fadeInRight delay-200ms group cursor-pointer"
+          >
+            <div class="relative rounded-[4px] overflow-hidden">
+              <img
+                class="block group-hover:scale-105 transition-all duration-500 ease-in-out"
+                src="./src/images/jpg01.jpeg"
+                alt="avatar"
+              />
+              <div
+                class="absolute transition-all duration-500 ease-in-out w-[100%] h-[100%] top-0 left-0 bg-black_opacity opacity-0 text-white flex items-center justify-center group-hover:opacity-100"
+              >
+                <i
+                  class="fa fa-arrow-right text-[40px] -translate-x-[20px] opacity-0 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-1000 ease-in-out"
+                ></i>
+              </div>
+            </div>
+            <div>
+              <p class="text-[10px] text-custom_black mt-[30px] mb-[15px]">
+                BRANDING
+              </p>
+              <h3
+                class="text-[18px] mb-[15px] -heading-[0.03rem] leading-[1.3] font-[700] transition-all duration-400 ease-in-out hover:text-custom_orange hover:underline"
+              >
+                Apartamento at ten: a decade of celebrating the everyday home
+              </h3>
+              <p class="text-[12px]">January 15, 2018</p>
+            </div>
+          </div>
+
+          <div
+            class="wow animate__animated animate__fadeInRight delay-400ms group cursor-pointer"
+          >
+            <div class="relative rounded-[4px] overflow-hidden">
+              <img
+                class="block group-hover:scale-105 transition-all duration-500 ease-in-out"
+                src="./src/images/jpg02.jpeg"
+                alt="avatar"
+              />
+              <div
+                class="absolute transition-all duration-500 ease-in-out w-[100%] h-[100%] top-0 left-0 bg-black_opacity opacity-0 text-white flex items-center justify-center group-hover:opacity-100"
+              >
+                <i
+                  class="fa fa-arrow-right text-[40px] -translate-x-[20px] opacity-0 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-1000 ease-in-out"
+                ></i>
+              </div>
+            </div>
+            <div>
+              <p class="text-[10px] text-custom_black mt-[30px] mb-[15px]">
+                INSPIRATION
+              </p>
+              <h3
+                class="text-[18px] mb-[15px] -heading-[0.03rem] leading-[1.3] font-[700] transition-all duration-400 ease-in-out hover:text-custom_orange hover:underline"
+              >
+                Aron Klein’s captivating images of the Bulgarian demon chasers
+              </h3>
+              <p class="text-[12px]">January 15, 2018</p>
+            </div>
+          </div>
+
+          <div
+            class="wow animate__animated animate__fadeInRight delay-600ms group cursor-pointer"
+          >
+            <div class="relative rounded-[4px] overflow-hidden">
+              <img
+                class="block group-hover:scale-105 transition-all duration-500 ease-in-out"
+                src="./src/images/r10-760x630.jpeg"
+                alt="avatar"
+              />
+              <div
+                class="absolute transition-all duration-500 ease-in-out w-[100%] h-[100%] top-0 left-0 bg-black_opacity opacity-0 text-white flex items-center justify-center group-hover:opacity-100"
+              >
+                <i
+                  class="fa fa-arrow-right text-[40px] -translate-x-[20px] opacity-0 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-1000 ease-in-out"
+                ></i>
+              </div>
+            </div>
+            <div>
+              <p class="text-[10px] text-custom_black mt-[30px] mb-[15px]">
+                ADVENTURE
+              </p>
+              <h3
+                class="text-[18px] mb-[15px] -heading-[0.03rem] leading-[1.3] font-[700] transition-all duration-400 ease-in-out hover:text-custom_orange hover:underline"
+              >
+                Peter Funch shares the photo books that inspire his own practice
+              </h3>
+              <p class="text-[12px]">January 15, 2018</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="wow animate__animated animate__fadeInLeft text-center">
+          <p
+            class="text-left w-[200px] inline-block group text-custom_black text-[18px] hover:text-custom_orange transition-all duration-200 cursor-pointer"
+          >
+            View All Members
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-[20px] inline-block transition-all duration-200 group-hover:text-custom_orange group-hover:w-[25px] h-5 ml-3"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+              />
+            </svg>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- DIGITAL AGENCY -->
+    <section
+      class="mt-[115px] pb-[145px] border-solid border-b-[1px] border-gray-100"
+    >
+      <div class="max-w-[1300px] mx-auto">
+        <div>
+          <p
+            class="text-center mb-[20px] text-[34px] font-[600] text-custom_black leading-[1.3] -tracking-[0.03rem]"
+          >
+            We are a digital agency creating
+            <span id="subscribe__renMess" data-mess="websites,apps,motion">
+              <span class="subscribe__cursor text-custom_orange">apps</span>
+              <span class="subscribe__line">|</span>
+              <span class="dot">.</span>
+            </span>
+          </p>
+        </div>
+
+        <div class="wow animate__animated animate__fadeInLeft text-center">
+          <p
+            class="text-left w-[200px] inline-block group text-custom_black text-[18px] hover:text-custom_orange transition-all duration-200 cursor-pointer"
+          >
+            Start a Project
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-[20px] inline-block transition-all duration-200 group-hover:text-custom_orange group-hover:w-[25px] h-5 ml-3"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+              />
+            </svg>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SUBSCRIBE TODAY-->
+    <section>
+      <div class="max-w-[1300px] mx-auto">
+        <div class="flex justify-between items-center">
+          <div class="flex items-center justify-center">
+            <a
+              href="#"
+              class="hover:bg-facebook hover:text-white transition-all duration-300 inline-flex text-gray-400 w-[70px] h-[60px] items-center justify-center border-l-[1px] border-r-[1px] border-gray-100"
+            >
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a
+              href="#"
+              class="hover:bg-twitter hover:text-white transition-all duration-300 inline-flex text-gray-400 w-[70px] h-[60px] items-center justify-center border-r-[1px] border-gray-100"
+            >
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a
+              href="#"
+              class="hover:bg-in hover:text-white transition-all duration-300 inline-flex text-gray-400 w-[70px] h-[60px] items-center justify-center border-r-[1px] border-gray-100"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a
+              href="#"
+              class="hover:bg-youtube hover:text-white transition-all duration-300 inline-flex text-gray-400 w-[70px] h-[60px] items-center justify-center border-r-[1px] border-gray-100"
+            >
+              <i class="fab fa-youtube"></i>
+            </a>
+          </div>
+          <div>
+            <a
+              class="text-[14px] leading-1 text-gray-400 font-[500] hover:text-custom_black"
+              href="#"
+              >Subscribe Today</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FACEBOOK -->
+    <footer
+      class="pt-[92px] pb-[83px] bg-black bg-footer bg-custom_bg_size bg-custom_bg_position bg-no-repeat bg-contain text-white leading-[1]"
+    >
+      <div class="max-w-[1300px] mx-auto">
+        <div class="slick__text w-[660px]">
+          <div class="w-[660px]">
+            <h3 class="text-[26px] mb-[28px] font-[600]">
+              “Fabulous looking theme and good support from developer. Takes a
+              little effort to get it structured the way you want it but I love
+              the way it looks.”
+            </h3>
+            <p
+              class="text-[14px] mb-[50px] flex items-center justify-start before:content-[''] before:mr-[5px] before:block before:w-[10px] before:h-[1px] before:bg-white"
+            >
+              Aaron Walker &nbsp;
+              <span class="opacity-60">Senior Product Designer at Uber</span>
+            </p>
+          </div>
+          <div class="w-[660px]">
+            <h3 class="text-[26px] mb-[28px] font-[600]">
+              “This theme is easy to use and offers a lot of possibilities. The
+              customer support answer quickly and accurately. Nothing bad to
+              say!”
+            </h3>
+            <p
+              class="text-[14px] mb-[50px] flex items-center justify-start before:content-[''] before:mr-[5px] before:block before:w-[10px] before:h-[1px] before:bg-white"
+            >
+              Collis TaeeedVice &nbsp;
+              <span class="opacity-60">President at Envato</span>
+            </p>
+          </div>
+          <div class="w-[660px]">
+            <h3 class="text-[26px] mb-[28px] font-[600]">
+              “Works great and it is easy to setup. Great choice for plenty of
+              different styles. Had no issues so far. Support works also well if
+              you need it. Thanks.”
+            </h3>
+            <p
+              class="text-[14px] mb-[50px] flex items-center justify-start before:content-[''] before:mr-[5px] before:block before:w-[10px] before:h-[1px] before:bg-white"
+            >
+              Brad Garlinghouse &nbsp;
+              <span class="opacity-60">CEO at Ripple Inc.</span>
+            </p>
+          </div>
+        </div>
+        <div class="w-[100%] h-[1px] bg-[#161616]"></div>
+        <div>
+          <div class="mb-[80px] mt-[77px]">
+            <div class="flex">
+              <div class="wow animate__animated animate__fadeInLeft w-[25%]">
+                <h4 class="mb-[30px] text-[20px] font-[400]">Address</h4>
+                <p
+                  class="max-w-[160px] text-[13px] opacity-80 leading-[1.6] mb-[12px]"
+                >
+                  1418 Riverwood Drive, Suite 3845 Cottonwood, CA 96022 +1 530
+                  347 4607
+                </p>
+                <p class="text-[13px]">
+                  <a
+                    href="#"
+                    class="text-[13px] block before:transition-all before:duration-200 before:ease-in-out relative w-fit before:absolute before:-bottom-[2px] before:left-0 before:content-[''] before:h-[1px] before:w-0 before:bg-white hover:before:w-[100%]"
+                    >View on Google Map</a
+                  >
+                </p>
+              </div>
+
+              <div
+                class="wow animate__animated animate__fadeInLeft delay-200ms w-[25%]"
+              >
+                <h4 class="mb-[30px] text-[20px] font-[400]">Navigate</h4>
+                <ul>
+                  <li class="mb-[12px]">
+                    <a
+                      class="text-[14px] leading-1 block before:transition-all before:duration-200 before:ease-in-out relative w-fit before:absolute before:-bottom-[2px] before:left-0 before:content-[''] before:h-[1px] before:w-0 before:bg-white hover:before:w-[100%]"
+                      href="#"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="mb-[12px]">
+                    <a
+                      class="text-[14px] leading-1 block before:transition-all before:duration-200 before:ease-in-out relative w-fit before:absolute before:-bottom-[2px] before:left-0 before:content-[''] before:h-[1px] before:w-0 before:bg-white hover:before:w-[100%]"
+                      href="#"
+                      >Projects</a
+                    >
+                  </li>
+                  <li class="mb-[12px]">
+                    <a
+                      class="text-[14px] leading-1 block before:transition-all before:duration-200 before:ease-in-out relative w-fit before:absolute before:-bottom-[2px] before:left-0 before:content-[''] before:h-[1px] before:w-0 before:bg-white hover:before:w-[100%]"
+                      href="#"
+                      >About</a
+                    >
+                  </li>
+                  <li class="mb-[12px]">
+                    <a
+                      class="text-[14px] leading-1 block before:transition-all before:duration-200 before:ease-in-out relative w-fit before:absolute before:-bottom-[2px] before:left-0 before:content-[''] before:h-[1px] before:w-0 before:bg-white hover:before:w-[100%]"
+                      href="#"
+                      >Contact</a
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <div
+                class="wow animate__animated animate__fadeInLeft delay-400ms w-[25%]"
+              >
+                <h4 class="mb-[30px] text-[20px] font-[400]">Quick Links</h4>
+                <ul>
+                  <li class="mb-[12px]">
+                    <a
+                      class="text-[14px] leading-1 block before:transition-all before:duration-200 before:ease-in-out relative w-fit before:absolute before:-bottom-[2px] before:left-0 before:content-[''] before:h-[1px] before:w-0 before:bg-white hover:before:w-[100%]"
+                      href="#"
+                      >Careers</a
+                    >
+                  </li>
+                  <li class="mb-[12px]">
+                    <a
+                      class="text-[14px] leading-1 block before:transition-all before:duration-200 before:ease-in-out relative w-fit before:absolute before:-bottom-[2px] before:left-0 before:content-[''] before:h-[1px] before:w-0 before:bg-white hover:before:w-[100%]"
+                      href="#"
+                      >News</a
+                    >
+                  </li>
+                  <li class="mb-[12px]">
+                    <a
+                      class="text-[14px] leading-1 block before:transition-all before:duration-200 before:ease-in-out relative w-fit before:absolute before:-bottom-[2px] before:left-0 before:content-[''] before:h-[1px] before:w-0 before:bg-white hover:before:w-[100%]"
+                      href="#"
+                      >Terms of Use</a
+                    >
+                  </li>
+                  <li class="mb-[12px]">
+                    <a
+                      class="text-[14px] leading-1 block before:transition-all before:duration-200 before:ease-in-out relative w-fit before:absolute before:-bottom-[2px] before:left-0 before:content-[''] before:h-[1px] before:w-0 before:bg-white hover:before:w-[100%]"
+                      href="#"
+                      >Privacy</a
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <div
+                class="wow animate__animated animate__fadeInLeft delay-600ms w-[25%]"
+              >
+                <h4 class="mb-[30px] text-[20px] font-[400]">Categories</h4>
+
+                <ul>
+                  <li class="mb-[12px]">
+                    <a
+                      class="text-[14px] leading-1 block before:transition-all before:duration-200 before:ease-in-out relative w-fit before:absolute before:-bottom-[2px] before:left-0 before:content-[''] before:h-[1px] before:w-0 before:bg-white hover:before:w-[100%]"
+                      href="#"
+                      >Adventure</a
+                    >
+                  </li>
+                  <li class="mb-[12px]">
+                    <a
+                      class="text-[14px] leading-1 block before:transition-all before:duration-200 before:ease-in-out relative w-fit before:absolute before:-bottom-[2px] before:left-0 before:content-[''] before:h-[1px] before:w-0 before:bg-white hover:before:w-[100%]"
+                      href="#"
+                      >Animation</a
+                    >
+                  </li>
+                  <li class="mb-[12px]">
+                    <a
+                      class="text-[14px] leading-1 block before:transition-all before:duration-200 before:ease-in-out relative w-fit before:absolute before:-bottom-[2px] before:left-0 before:content-[''] before:h-[1px] before:w-0 before:bg-white hover:before:w-[100%]"
+                      href="#"
+                      >Branding</a
+                    >
+                  </li>
+                  <li class="mb-[12px]">
+                    <a
+                      class="text-[14px] leading-1 block before:transition-all before:duration-200 before:ease-in-out relative w-fit before:absolute before:-bottom-[2px] before:left-0 before:content-[''] before:h-[1px] before:w-0 before:bg-white hover:before:w-[100%]"
+                      href="#"
+                      >Creativity</a
+                    >
+                  </li>
+                  <li class="mb-[12px]">
+                    <a
+                      class="text-[14px] leading-1 block before:transition-all before:duration-200 before:ease-in-out relative w-fit before:absolute before:-bottom-[2px] before:left-0 before:content-[''] before:h-[1px] before:w-0 before:bg-white hover:before:w-[100%]"
+                      href="#"
+                      >Inspiration</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <p class="text-[14px] opacity-60">© 2018 Revolution Theme.</p>
+          <p class="mt-5">
+            A product by
+            <a
+              href="https://lehuynhqui.vercel.app/"
+              class="wow animate__animated animate__zoomInDown underline hover:text-custom_orange transition-all duration-200 ease-in-out"
+              target="_blank"
+            >
+              huynhqui.
+            </a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- GO TO TOP -->
+    <section>
+      <div
+        id="backToTop"
+        class="animate__animated animate__fadeInUp delay-200ms w-[32px] hidden group cursor-pointer transition-all ease-in-out duration-300 h-[32px] rounded-full bg-bg_toTop text-white text-center fixed bottom-[15px] right-[15px] hover:bg-custom_orange"
+      >
+        <i
+          class="fa fa-angle-up text-[10px] transition-all duration-100 ease-in-out leading-[32px] group-hover:opacity-0"
+        ></i>
+        <i
+          class="fa fa-arrow-up text-[10px] w-[100%] duration-300 transition-all ease-in-out opacity-0 group-hover:opacity-100 group-hover:top-0 h-[100%] top-3 left-0 text-center leading-[32px] absolute"
+        ></i>
+      </div>
+    </section>
+
+    <!-- Jquery -->
+    <script
+      src="https://code.jquery.com/jquery-1.12.4.min.js"
+      integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+      crossorigin="anonymous"
+    ></script>
+    <!-- SLICK -->
+    <script src="./src/slick-1.8.1/slick/slick.min.js"></script>
+
+    <!-- TEXT TYPING -->
+    <script src="./src/text-typing/textTyping.js"></script>
+
+    <!-- TAILWIND -->
+    <script src="./src/js/ tailwind.config.js"></script>
+
+    <!-- wow -->
+    <script src="./src/WOW-master/dist/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <script src="./src/js/main.js"></script>
+  </body>
+</html>

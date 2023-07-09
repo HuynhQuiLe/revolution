@@ -1,0 +1,68 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.slick-dots {
+  bottom: -50px;
+}
+
+.slick-dots li {
+  margin: 0;
+  width: 13px;
+}
+
+.slick-dots li button:before {
+  font-size: 7px;
+}
+
+.subscribe__line {
+  display: inline-block;
+  font-weight: 400;
+  animation: line 0.3s infinite alternate;
+  transform: translateX(-10px);
+}
+.dot {
+  display: inline-block;
+  transform: translateX(-20px);
+}
+
+@keyframes line {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.delay-200ms {
+  animation-delay: 200ms;
+}
+
+.delay-400ms {
+  animation-delay: 400ms;
+}
+
+.delay-600ms {
+  animation-delay: 600ms;
+}
+
+.delay-500ms {
+  animation-delay: 500ms;
+}
+
+.delay-1000ms {
+  animation-delay: 1000ms;
+}
+
+.delay-1500ms {
+  animation-delay: 1500ms;
+}
